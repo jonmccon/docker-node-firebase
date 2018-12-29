@@ -10,7 +10,7 @@ RUN apk update && apk add git
 # install Firebase CLI
 RUN yarn global add firebase-tools@4.2.1
 
-WORKDIR ./public
+WORKDIR /public
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
