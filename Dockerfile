@@ -2,7 +2,7 @@
 FROM node:10-alpine
 
 # update tools in Alpine ver
-RUN apk update && apk add git && sudo apk add python
+RUN apk update && apk add git && apk add python
 
 # This is for an Ubuntu image
 # RUN apt-get update && apt-get install -y git
