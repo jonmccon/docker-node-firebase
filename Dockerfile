@@ -1,5 +1,5 @@
 # use latest Node LTS
-FROM node:10-alpine
+FROM node:8-alpine
 
 # update tools in Alpine ver
 RUN apk update && apk add git && apk add python
