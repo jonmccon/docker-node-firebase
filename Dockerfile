@@ -11,7 +11,7 @@ RUN apk update && apk add git && apk add python
 RUN yarn global add firebase-tools@4.2.1
 
 # Trying to figure out where this is defined
-WORKDIR /public
+WORKDIR /
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
