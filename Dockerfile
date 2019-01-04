@@ -10,11 +10,9 @@ RUN yarn global add firebase-tools@4.2.1
 # Trying to figure out where this is defined
 WORKDIR /src/app
 
-
-# For running locally:
 # install and cache app dependencies
-# COPY package*.json ./
-# ADD package.json /src/app/package.json
+COPY package*.json ./
+ADD package.json /src/app/package.json
 # RUN npm install
 # RUN npm build
 
