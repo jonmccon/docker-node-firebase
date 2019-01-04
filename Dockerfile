@@ -6,6 +6,7 @@ RUN apk update && apk add git && apk add python
 
 # install Firebase CLI
 RUN yarn global add firebase-tools@4.2.1
+RUN npm install -g npm-cache
 
 # Trying to figure out where this is defined
 WORKDIR /src/app
