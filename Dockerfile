@@ -9,7 +9,7 @@ RUN yarn global add firebase-tools@4.2.1
 RUN npm install -g npm-cache
 
 # Trying to figure out where this is defined
-WORKDIR /src/app
+WORKDIR /src
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
